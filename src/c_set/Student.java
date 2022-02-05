@@ -2,9 +2,9 @@ package c_set;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
 
-	String name;
+	public String name;
 	int rollNo;
 	public  Student(String name, int rollNo) {
 		this.name = name;
@@ -57,6 +57,15 @@ public class Student {
 		
 		
 		
+	}
+
+
+
+
+	@Override
+	public int compareTo(Student that) {
+		
+		return this.rollNo - that.rollNo;
 	}
 
 }
