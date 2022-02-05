@@ -14,20 +14,20 @@ public class B_LinkedHashSet {
 		lhset.add(3);
 		System.out.println(lhset);
 		
-		//-
-				lhset.remove(5);
-				System.out.println(lhset);
+	   //-
+	   lhset.remove(5);
+	   System.out.println(lhset);
 				
-				//isContain
-				System.out.println(lhset.contains(22));
+	   //isContain
+	   System.out.println(lhset.contains(22));
 				
-				//isEmpty
-				System.out.println(lhset.isEmpty());
+	   //isEmpty
+	   System.out.println(lhset.isEmpty());
 				
-				//size()
-				System.out.println(lhset.size());
+	   //size()
+	   System.out.println(lhset.size());
 				
-				//set.clear();
+	   //set.clear();
 		
 
 	}

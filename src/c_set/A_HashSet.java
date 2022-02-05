@@ -22,6 +22,7 @@ public class A_HashSet {
 		set.add(10);
 		System.out.println(set);
 		
+		//O(1) time complexity 
 		//-
 		set.remove(22);
 		System.out.println(set);
