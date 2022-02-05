@@ -1,5 +1,7 @@
-package queue;
+package b_queue;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -34,6 +36,8 @@ public class A_LinkedList {
 	   
 // 
 	   System.out.println(queue.peek());
+	   
+	   List<Integer> list = new ArrayList<>();
 	}
 
 }

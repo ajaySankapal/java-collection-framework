@@ -1,4 +1,4 @@
-package list;
+package a_list;
 
 import java.awt.List;
 import java.util.ArrayList;
